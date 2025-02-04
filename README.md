@@ -309,6 +309,8 @@ jobs:
 ```Bash
 azurerm_linux_web_app.webapp: Creation complete after 53s [id=/subscriptions/1f57de72-50fd-4271-8ab9-3fc129f02bc0/resourceGroups/upt-arg-XXX/providers/Microsoft.Web/sites/upt-awa-XXX]
 ```
+![image](https://github.com/user-attachments/assets/16a1805d-56cc-4754-a4cc-19b9b2e18004)
+
 
 ### CONSTRUCCION DE LA APLICACION
 
