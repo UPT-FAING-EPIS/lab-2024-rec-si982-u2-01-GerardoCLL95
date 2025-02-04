@@ -127,6 +127,8 @@ resource "azurerm_mssql_database" "sqldb" {
   sku_name = "Free"
 }
 ```
+![image](https://github.com/user-attachments/assets/823552c0-325c-4cad-bc4e-354e13566b9a)
+
 
 3. Abrir un navegador de internet y dirigirse a su repositorio en Github, en la sección *Settings*, buscar la opción *Secrets and Variables* y seleccionar la opción *Actions*. Dentro de esta crear los siguientes secretos
 > AZURE_USERNAME: Correo o usuario de cuenta de Azure
@@ -134,6 +136,9 @@ resource "azurerm_mssql_database" "sqldb" {
 > SUSCRIPTION_ID: ID de la Suscripción de cuenta de Azure
 > SQL_USER: Usuario administrador de la base de datos, ejm: adminsql
 > SQL_PASS: Password del usuario administrador de la base de datos, ejm: upt.2025
+
+![image](https://github.com/user-attachments/assets/2c3b08dd-e97a-42fd-a37b-fac04f97896f)
+
 
 5. En el Visual Studio Code, crear la carpeta .github/workflows en la raiz del proyecto, seguidamente crear el archivo deploy.yml con el siguiente contenido
 <details><summary>Click to expand: deploy.yml</summary>
