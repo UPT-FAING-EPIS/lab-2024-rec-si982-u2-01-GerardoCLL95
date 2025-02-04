@@ -127,6 +127,8 @@ resource "azurerm_mssql_database" "sqldb" {
   sku_name = "Free"
 }
 ```
+![image](https://github.com/user-attachments/assets/823552c0-325c-4cad-bc4e-354e13566b9a)
+
 
 3. Abrir un navegador de internet y dirigirse a su repositorio en Github, en la sección *Settings*, buscar la opción *Secrets and Variables* y seleccionar la opción *Actions*. Dentro de esta crear los siguientes secretos
 > AZURE_USERNAME: Correo o usuario de cuenta de Azure
