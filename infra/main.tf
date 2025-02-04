@@ -20,7 +20,7 @@ variable "sqladmin_username" {
 
 variable "sqladmin_password" {
     type = string
-    description = "epis"
+    description = "upt2025upt2025"
 }
 
 provider "azurerm" {
