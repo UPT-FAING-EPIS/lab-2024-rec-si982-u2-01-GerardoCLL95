@@ -28,8 +28,8 @@ jobs:
 
       - name: 'Build Inventory Image'
         run: |
-            docker build ./src --tag ghcr.io/GerardoCLL95/shorten:${{github.sha}}
-            docker push ghcr.io/sergioupt/shorten:${{github.sha}}
+            docker build ./src --tag ghcr.io/gerardocll95/shorten:${{github.sha}}
+            docker push ghcr.io/gerardocll95/shorten:${{github.sha}}
 
   deploy:
     permissions:
@@ -47,7 +47,7 @@ jobs:
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-          images: ghcr.io/sergioupt/shorten:${{github.sha}}
+          images: ghcr.io/gerardocll95/shorten:${{github.sha}}
     
   security_scan:
     runs-on: ubuntu-latest
