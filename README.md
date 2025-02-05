@@ -632,11 +632,24 @@ az group export -n upt-arg-XXX > lab_01.json
 
 8. En el Visual Studio Code, instalar la extensión *ARM Template Viewer*, abrir el archivo lab_02.json y hacer click en el icono de previsualizar ARM.
 
+   ![lab_02arm](https://github.com/user-attachments/assets/d3463477-8f48-47eb-baef-134c60cc7509)
+
+
 
 ## ACTIVIDADES ENCARGADAS
 
 1. Subir el diagrama al repositorio como lab_02.png y el reporte de metricas.
-2. Realizar el scanero del codigo de terraform utilizando TfSec o Trivy dentro del Github Action.
-3. En la aplicación completar el envio de correo para el registro de usuarios (https://learn.microsoft.com/es-es/aspnet/core/security/authentication/accconfirm?view=aspnetcore-9.0&tabs=visual-studio)
-4. En la aplicación migrar la cadena de conexion a la base de datos a una Configuración de aplicación de Azure, como una variable de ambiente.
-5. Realizar el escaneo de vulnerabilidad con SonarCloud y Semgrep dentro del Github Action correspondiente.
+
+![lab_02](https://github.com/user-attachments/assets/bf1be0e1-d8ee-45c9-b574-6406ea7cf59d)
+
+3. Realizar el scanero del codigo de terraform utilizando TfSec o Trivy dentro del Github Action.
+
+![image](https://github.com/user-attachments/assets/7c6f31d7-392d-40bd-a541-96af5e3981d4)
+
+   
+5. En la aplicación completar el envio de correo para el registro de usuarios (https://learn.microsoft.com/es-es/aspnet/core/security/authentication/accconfirm?view=aspnetcore-9.0&tabs=visual-studio)
+6. En la aplicación migrar la cadena de conexion a la base de datos a una Configuración de aplicación de Azure, como una variable de ambiente.
+7. Realizar el escaneo de vulnerabilidad con SonarCloud y Semgrep dentro del Github Action correspondiente.
+
+   ![image](https://github.com/user-attachments/assets/86235720-468a-4c09-9ce6-248f03d4a073)
+
